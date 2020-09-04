@@ -111,4 +111,10 @@ Como **body** da requisição, é necessário passar o seguinte objeto:
 ```
 A API irá retornar o resumo em forma de **String**.
 # Frontend TCC
-Para rodar o frontend, desenvolvido em Angular, acesse [este repositório](https://github.com/VictorCandido/frontend-tcc) e siga os mesmos passos. Necessário ter instalado o [Angular CLI](https://cli.angular.io/).
+Para rodar o frontend, desenvolvido em Angular, acesse [este repositório](https://github.com/VictorCandido/chatbot-tcc) e siga os mesmos passos. Necessário ter instalado o [Angular CLI](https://cli.angular.io/).
+
+# Em caso de dúvidas....
+Para caso de dúvidas, segue listado algumas documentações que me ajudaram a desenvolver este projeto:
+- [IBM Watson Assistant - Getting Started](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started)
+- [IBM Watson Natural Language Understanding - Getting Started](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-getting-started)
+- [IBM Watson Language Translator - Getting Started](https://cloud.ibm.com/docs/language-translator/getting-started.html)
