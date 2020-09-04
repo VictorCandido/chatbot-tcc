@@ -1,0 +1,36 @@
+<po-page-default>
+    <div class="container">
+        <div class="chat">
+            <div class="chat-header">
+              <h2>Chatbot</h2>
+              <p>{{ status }}</p>
+            </div>
+
+            <div class="chat-body" #chatBody>
+              <mat-card
+                *ngFor="let message of conversation"
+                [ngClass]="message.class"
+              >{{ message.text }}</mat-card>
+            </div>
+
+            <div class="chat-message">
+                <div class="po-row">
+                    <po-input
+                      p-auto-focus=true
+                      class="po-md-11"
+                      p-placeholder="Digite uma mensagem..."
+                      [(ngModel)]="localMessage"
+                      (keyup)="onKey($event)"
+                    ></po-input>
+
+                    <po-button
+                      class="po-md-1 sendButton"
+                      p-icon="po-icon-sms"
+                      p-label="Enviar"
+                      (p-click)="addLocalMessage()"
+                    ></po-button>
+                </div>
+            </div>
+        </div>
+    </div>
+</po-page-default>

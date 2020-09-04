@@ -1,0 +1,36 @@
+<po-page-default>
+
+  <po-table
+    [p-columns]="columns"
+    [p-items]="items"
+    [p-actions]="actions"
+    p-striped="true"
+  ></po-table>
+
+
+  <po-modal
+    #responder
+    p-click-out="true"
+    p-size="md"
+    p-title="Responder Questão"
+    [p-primary-action]="responderModalConfirm"
+  >
+    <p>{{ selectedQuestion.question }}</p>
+
+    <po-textarea
+      [(ngModel)]="selectedQuestion.answer"
+      p-auto-focus="true"
+    ></po-textarea>
+  </po-modal>
+
+  <po-modal
+    #remover
+    p-click-out="true"
+    p-size="sm"
+    p-title="Confirmar"
+    [p-primary-action]="removerModalConfirm"
+  >
+    <p>Deseja mesmo remover a pergunta selecionada?</p>
+  </po-modal>
+
+</po-page-default>
