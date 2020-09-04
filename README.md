@@ -1,5 +1,5 @@
 # CHATBOT TCC
-TCC - [Víctor Cândido](https://github.com/VictorCandido/chatbot-tcc/blob/master/backend-tcc/README.md)
+TCC - [Víctor Cândido](https://github.com/VictorCandido)
 
 ## How to Clone
 Primeiro tenha instalado o git em sua máquina.
